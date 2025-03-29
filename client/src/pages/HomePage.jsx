@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Home from "../assets/images/homepage.png";
-import Facility1 from "../assets/images/facility1.jpg";
+import Facility1 from "../assets/images/facility1.png";
 import Facility2 from "../assets/images/facility2.jpg";
 import Trainer1 from "../assets/images/trainer1.jpg";
 import Trainer2 from "../assets/images/trainer2.jpg";
