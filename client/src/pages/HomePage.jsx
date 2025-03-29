@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Home from "../assets/images/homepage.png";
-import Facility1 from "../assets/images/facility.png";
-import Facility2 from "../assets/images/facility2.png";
-import Trainer1 from "../assets/images/trainer1.png";
-import Trainer2 from "../assets/images/trainer2.png";
+import Facility1 from "../assets/images/pngegg.png";
+import Facility2 from "../assets/images/pngeggJhon.png";
+import Trainer1 from "../assets/images/tainer.png";
+import Trainer2 from "../assets/images/Tainer3.png";
+import Yoga from "../assets/images/yoga.png";
 
 // Sample data for quick stats
 const stats = [
@@ -21,7 +22,7 @@ const classes = [
   {
     title: "Yoga",
     description: "Find your inner peace with our calming yoga sessions, suitable for all levels.",
-    image: "/path-to-yoga-image.jpg",
+    image: Yoga,
   },
   {
     title: "HIIT",
