@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import ProfessionalTrainers from "../assets/images/workoutImages/ProfessionalTrainers.jpg";
+import  gymEquipment from "../assets/images/workoutImages/gymEquipment.jpg";
 
 const AnimatedSection = ({ children, className, initial, animate, transition = { duration: 0.5 } }) => {
   const [ref, inView] = useInView({
@@ -216,7 +218,7 @@ const AboutPage = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-yellow-400 rounded-lg transform -rotate-3 group-hover:rotate-0 transition-transform duration-300"></div>
               <img
-                src="https://via.placeholder.com/480x640"
+                src={ProfessionalTrainers}
                 alt="Our Team"
                 className="w-full max-w-md rounded-lg shadow-2xl relative z-10 object-cover h-auto"
                 loading="lazy"
@@ -249,7 +251,7 @@ const AboutPage = () => {
           >
             <div className="relative rounded-lg overflow-hidden group">
               <img
-                src="https://via.placeholder.com/480x640"
+                src={gymEquipment}
                 alt="Our Facilities"
                 className="w-full max-w-md object-cover transform group-hover:scale-110 transition-transform duration-700"
                 loading="lazy"

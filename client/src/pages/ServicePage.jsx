@@ -1,6 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import NutritionalGuidance from "../assets/images/workoutImages/NutritionalGuidance.jpg";
+import RecoveryRehabilitation from "../assets/images/workoutImages/Recovery&Rehabilitation.jpg";
+import personalTrainer from "../assets/images/workoutImages/personalTrainer.jpg";
+import gymClasses from "../assets/images/workoutImages/gymClasses.jpg";
+import avatar from "../assets/images/workoutImages/avatar.jpg"; 
 
 const AnimatedSection = motion.div;
 
@@ -16,7 +21,7 @@ const ServicesPage = () => {
         "Ongoing progress tracking and adjustments to keep you on track.",
         "Motivational support to help you stay committed.",
       ],
-      image: "/api/placeholder/600/400",
+      image: personalTrainer,
       benefits: [
         "Personalized attention",
         "Faster results",
@@ -35,7 +40,7 @@ const ServicesPage = () => {
         "Community atmosphere to keep you motivated and engaged.",
         "Flexible schedules to fit your busy lifestyle.",
       ],
-      image: "/api/placeholder/600/400",
+      image: gymClasses,
       benefits: [
         "Social and fun environment",
         "Variety of workout styles",
@@ -54,7 +59,7 @@ const ServicesPage = () => {
         "Education on supplements and their benefits.",
         "Support for weight loss, muscle gain, or overall wellness.",
       ],
-      image: "/api/placeholder/600/400",
+      image: NutritionalGuidance,
       benefits: [
         "Optimized nutrition",
         "Better energy levels",
@@ -73,7 +78,7 @@ const ServicesPage = () => {
         "Access to recovery tools like cryotherapy and compression therapy.",
         "Guidance on stretching and mobility exercises.",
       ],
-      image: "/api/placeholder/600/400",
+      image: RecoveryRehabilitation,
       benefits: [
         "Faster recovery",
         "Injury prevention",
@@ -82,6 +87,7 @@ const ServicesPage = () => {
       ],
       cta: "Book a Recovery Session",
     },
+    
   ];
 
   const testimonials = [
@@ -89,19 +95,19 @@ const ServicesPage = () => {
       name: "Jessica M.",
       quote:
         "The personal training at SKY Fitness has transformed my life! My trainer helped me lose 20 pounds and gain confidence I never thought I’d have.",
-      image: "/api/placeholder/100/100",
+      image: avatar,
     },
     {
       name: "Mark T.",
       quote:
         "The group classes are amazing! I love the energy and variety, and the instructors are so motivating. I’ve never been in better shape!",
-      image: "/api/placeholder/100/100",
+      image: avatar,
     },
     {
       name: "Emily R.",
       quote:
         "The nutritional guidance I received helped me understand how to fuel my body properly. I’ve seen incredible results in my performance and energy levels.",
-      image: "/api/placeholder/100/100",
+      image: avatar,
     },
   ];
 
@@ -133,7 +139,7 @@ const ServicesPage = () => {
         transition={{ duration: 0.5 }}
       >
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 mt-10">
           <h2 className="text-5xl md:text-6xl font-bold text-yellow-400 mb-6">
             Our Services
           </h2>

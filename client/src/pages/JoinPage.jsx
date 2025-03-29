@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import banner1 from "../assets/images/workoutImages/banner1.png"; 
+import avatar from "../assets/images/workoutImages/avatar.jpg"; 
 
 // Sample data for pricing plans (updated to INR and aligned with PricingSection)
 const pricingPlans = [
@@ -61,21 +63,21 @@ const testimonials = [
     name: "Sarah M.",
     role: "Premium Member",
     quote: "Joining this gym was the best decision I made! The group classes are amazing, and the trainers are so supportive. I've lost 10 kg in 3 months!",
-    image: "/path-to-sarah-image.jpg",
+    image: avatar,
     rating: 5,
   },
   {
     name: "Mike T.",
     role: "Elite Member",
     quote: "The personalized training and nutrition plan helped me achieve my fitness goals faster than I ever thought possible. I feel stronger every day!",
-    image: "/path-to-mike-image.jpg",
+    image: avatar,
     rating: 5,
   },
   {
     name: "Emily R.",
     role: "Basic Member",
     quote: "I love the welcoming atmosphere and the variety of equipment. It’s perfect for someone just starting out like me! The fitness assessment was a great start.",
-    image: "/path-to-emily-image.jpg",
+    image: avatar,
     rating: 4,
   },
 ];
@@ -214,15 +216,11 @@ const JoinPage = () => {
         >
           <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/path-to-join-hero-image.jpg"
+              src={banner1}
               alt="Group of people working out in a modern gym"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover z-10"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-              <h2 className="text-2xl md:text-4xl font-bold text-white">
-                Your Fitness Journey Starts Here
-              </h2>
-            </div>
+            
           </div>
         </motion.div>
 

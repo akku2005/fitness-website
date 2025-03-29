@@ -7,7 +7,9 @@ import Facility1 from "../assets/images/pngegg.png";
 import Facility2 from "../assets/images/pngeggJhon.png";
 import Trainer1 from "../assets/images/tainer.png";
 import Trainer2 from "../assets/images/Tainer3.png";
-import Yoga from "../assets/images/yoga.png";
+import Yoga from "../assets/images/workoutImages/yoga.jpg";
+import HIIT from "../assets/images/workoutImages/HIIT.jpg";
+import Spin from "../assets/images/workoutImages/spin.jpg";
 
 // Sample data for quick stats
 const stats = [
@@ -27,12 +29,12 @@ const classes = [
   {
     title: "HIIT",
     description: "Burn calories and build strength with our high-intensity interval training classes.",
-    image: "/path-to-hiit-image.jpg",
+    image: HIIT,
   },
   {
     title: "Spin",
     description: "Get your heart pumping with our energetic spin classes led by expert instructors.",
-    image: "/path-to-spin-image.jpg",
+    image: Spin,
   },
 ];
 
@@ -123,7 +125,7 @@ const HomePage = () => {
       </div>
 
       {/* Navigation Menu */}
-      <nav className="w-full max-w-6xl py-4 overflow-x-auto scrollbar-hide">
+      <nav className="w-full max-w-6xl py-4 overflow-x-auto scrollbar-hide ">
         <div className="flex justify-center space-x-4 md:space-x-6 min-w-max px-4">
           {[
             { to: "/blog", label: "Blog" },
@@ -138,7 +140,7 @@ const HomePage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
             >
-              <Link to={link.to} className="text-gray-400 hover:text-yellow-400 whitespace-nowrap transition-colors duration-300">
+              <Link to={link.to} className="text-lime-500 font-bold hover:text-yellow-400 whitespace-nowrap transition-colors duration-300">
                 {link.label}
               </Link>
             </AnimatedSection>
@@ -379,7 +381,7 @@ const HomePage = () => {
           </h2>
           <div className="w-24 h-1 bg-yellow-400 mx-auto mb-4"></div>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-            Join [Gym Name] today and take the first step towards a healthier, stronger you. Our community is here to support you every step of the way!
+            Join SKYfitness today and take the first step towards a healthier, stronger you. Our community is here to support you every step of the way!
           </p>
           <Link
             to="/join"
