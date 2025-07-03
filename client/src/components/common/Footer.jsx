@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
-// Social media icons (using SVGs for simplicity; you can replace with react-icons)
-const socialIcons = [
-  { name: "Facebook", link: "https://facebook.com", icon: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" },
-  { name: "Instagram", link: "https://instagram.com", icon: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zm1.5-4.87h.01M21 2a19 19 0 0 0-19 19 19 19 0 0 0 19-19z" },
-  { name: "Twitter", link: "https://twitter.com", icon: "M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" },
-  { name: "YouTube", link: "https://youtube.com", icon: "M22.46 6a3 3 0 0 0-2.12-2.12C18.21 3 12 3 12 3s-6.21 0-8.34.88A3 3 0 0 0 1.54 6 31.32 31.32 0 0 0 1 12a31.32 31.32 0 0 0 .54 6 3 3 0 0 0 2.12 2.12C5.79 21 12 21 12 21s6.21 0 8.34-.88A3 3 0 0 0 22.46 18 31.32 31.32 0 0 0 23 12a31.32 31.32 0 0 0-.54-6zM9 16V8l6 4-6 4z" },
-];
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FiChevronUp } from "react-icons/fi";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -24,10 +18,10 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-black text-white py-20 px-4 sm:px-6 lg:px-8 ">
+    <footer className="bg-black text-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and About Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -36,7 +30,7 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <div className="flex items-center ">
+            <div className="flex items-center">
               <div className="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center mr-3 shadow-md">
                 <svg
                   viewBox="0 0 24 24"
@@ -55,7 +49,12 @@ const Footer = () => {
               At SKY Fitness, we're dedicated to helping you achieve your fitness goals with state-of-the-art facilities, expert trainers, and a supportive community.
             </p>
             <div className="flex space-x-4">
-              {socialIcons.map((social, index) => (
+              {[
+                { name: "Facebook", link: "https://facebook.com", icon: <FaFacebookF /> },
+                { name: "Instagram", link: "https://instagram.com", icon: <FaInstagram /> },
+                { name: "Twitter", link: "https://twitter.com", icon: <FaTwitter /> },
+                { name: "YouTube", link: "https://youtube.com", icon: <FaYoutube /> },
+              ].map((social, index) => (
                 <motion.a
                   key={social.name}
                   href={social.link}
@@ -69,14 +68,7 @@ const Footer = () => {
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <svg
-                    className="w-6 h-6"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d={social.icon} />
-                  </svg>
+                  {social.icon}
                   <span className="sr-only">{social.name}</span>
                 </motion.a>
               ))}
@@ -130,39 +122,17 @@ const Footer = () => {
             <h3 className="text-lg sm:text-xl font-bold text-yellow-400">Contact Us</h3>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start">
-                <svg
-                  className="w-5 h-5 mr-2 text-yellow-400 mt-0.5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 2a6 6 0 110 12 6 6 0 010-12zm0 2a1 1 0 00-1 1v3a1 1 0 002 0V7a1 1 0 00-1-1z" />
-                </svg>
+                <FaMapMarkerAlt className="w-5 h-5 mr-2 text-yellow-400 mt-0.5" />
                 <span className="text-sm sm:text-base">123 Fitness Street, Mumbai, India</span>
               </li>
               <li className="flex items-start">
-                <svg
-                  className="w-5 h-5 mr-2 text-yellow-400 mt-0.5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                </svg>
+                <FaPhoneAlt className="w-5 h-5 mr-2 text-yellow-400 mt-0.5" />
                 <a href="tel:+912345678900" className="hover:text-yellow-400 transition-colors duration-300 text-sm sm:text-base">
                   +91 234 567 8900
                 </a>
               </li>
               <li className="flex items-start">
-                <svg
-                  className="w-5 h-5 mr-2 text-yellow-400 mt-0.5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg>
+                <FaEnvelope className="w-5 h-5 mr-2 text-yellow-400 mt-0.5" />
                 <a href="mailto:info@skyfitness.com" className="hover:text-yellow-400 transition-colors duration-300 text-sm sm:text-base break-all">
                   info@skyfitness.com
                 </a>
@@ -247,20 +217,7 @@ const Footer = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
-        <svg
-          className="w-5 h-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M5 15l7-7 7 7"
-          />
-        </svg>
+        <FiChevronUp className="w-5 h-5" />
         <span className="sr-only">Back to Top</span>
       </motion.button>
     </footer>

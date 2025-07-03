@@ -37,7 +37,7 @@ const WorkoutRoutinesPage = () => {
             "Use a mirror to check your posture.",
             "Start with lighter weights if using dumbbells.",
           ],
-          image: "https://example.com/beginner-full-body.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1661265933107-85a5dbd815af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnVsbCUyMEJvZHklMjBTdGFydGVyJTIwV29ya291dHxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 2,
@@ -66,7 +66,7 @@ const WorkoutRoutinesPage = () => {
             "Modify burpees by stepping back instead of jumping.",
             "Stay hydrated throughout the workout.",
           ],
-          image: "https://example.com/beginner-cardio.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1661576732196-5b0d5adc6d5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2FyZGlvJTIwS2lja3N0YXJ0JTIwZ3ltfGVufDB8fDB8fHww",
         },
         {
           id: 3,
@@ -95,7 +95,7 @@ const WorkoutRoutinesPage = () => {
             "Use a yoga block if needed for support.",
             "Focus on stretching, not straining.",
           ],
-          image: "https://example.com/beginner-mobility.jpg",
+          image: "https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1vYmlsaXR5JTIwYW5kJTIwRmxleGliaWxpdHklMjBneW18ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 4,
@@ -124,7 +124,7 @@ const WorkoutRoutinesPage = () => {
             "Avoid pulling on your neck during crunches.",
             "Breathe out during the exertion phase.",
           ],
-          image: "https://example.com/beginner-core.jpg",
+          image: "https://images.unsplash.com/photo-1734668486909-4637ecd66408?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q29yZSUyMEZ1bmRhbWVudGFscyUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 5,
@@ -153,7 +153,7 @@ const WorkoutRoutinesPage = () => {
             "Use a chair for support if needed.",
             "Increase intensity gradually.",
           ],
-          image: "https://example.com/beginner-low-impact.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1713800447261-0473766dc647?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TG93JTIwSW1wYWN0JTIwQ2FyZGlvJTIwZ3ltfGVufDB8fDB8fHww",
         },
         {
           id: 6,
@@ -182,7 +182,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on breathing deeply.",
             "Move at a comfortable pace.",
           ],
-          image: "https://example.com/beginner-morning.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1726731185748-552b7ac99bf1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8TW9ybmluZyUyMEVuZXJnaXplciUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 7,
@@ -211,7 +211,7 @@ const WorkoutRoutinesPage = () => {
             "Use a resistance band for added intensity.",
             "Focus on slow, controlled movements.",
           ],
-          image: "https://example.com/beginner-lower-body.jpg",
+          image: "https://images.unsplash.com/photo-1584863231364-2edc166de576?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fExvd2VyJTIwQm9keSUyMEJhc2ljcyUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 8,
@@ -240,7 +240,7 @@ const WorkoutRoutinesPage = () => {
             "Start with light weights or bodyweight.",
             "Focus on controlled movements.",
           ],
-          image: "https://example.com/beginner-upper-body.jpg",
+          image: "https://images.unsplash.com/photo-1704375058325-e51b6382a95d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8VXBwZXIlMjBCb2R5JTIwQmFzaWNzJTIwZ3ltfGVufDB8fDB8fHww",
         },
         {
           id: 9,
@@ -269,7 +269,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on a fixed point to maintain balance.",
             "Move slowly to maintain control.",
           ],
-          image: "https://example.com/beginner-balance.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1700061655645-3edae75d9d09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmFsYW5jZSUyMGFuZCUyMFN0YWJpbGl0eSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 10,
@@ -298,7 +298,7 @@ const WorkoutRoutinesPage = () => {
             "Use props like a block or cushion for support.",
             "Move at your own pace.",
           ],
-          image: "https://example.com/beginner-yoga.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1716025656382-cc9dfe8714a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2VudGxlJTIwWW9nYSUyMEZsb3d8ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 11,
@@ -327,7 +327,7 @@ const WorkoutRoutinesPage = () => {
             "Modify exercises as needed.",
             "Focus on proper form.",
           ],
-          image: "https://example.com/beginner-bodyweight.jpg",
+          image: "https://images.unsplash.com/photo-1483721310020-03333e577078?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 12,
@@ -356,7 +356,7 @@ const WorkoutRoutinesPage = () => {
             "Engage your core during each exercise.",
             "Perform in front of a mirror to check alignment.",
           ],
-          image: "https://example.com/beginner-posture.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1661719103631-3bc3eb2e21e7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9zdHVyZSUyMGltcHJvdmVtZW50fGVufDB8fDB8fHww",
         },
         {
           id: 13,
@@ -385,7 +385,7 @@ const WorkoutRoutinesPage = () => {
             "Use a foam roller if available.",
             "Listen to your body and avoid overstretching.",
           ],
-          image: "https://example.com/beginner-recovery.jpg",
+          image: "https://images.unsplash.com/photo-1589860518300-9eac95f784d9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEFjdGl2ZSUyMFJlY292ZXJ5JTIwRGF5fGVufDB8fDB8fHww",
         },
         {
           id: 14,
@@ -414,7 +414,7 @@ const WorkoutRoutinesPage = () => {
             "Keep movements controlled.",
             "Stop if you feel any discomfort.",
           ],
-          image: "https://example.com/beginner-chair.jpg",
+          image: "https://images.unsplash.com/photo-1592494624782-b5bee232f156?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q2hhaXIlMjBCYXNlZCUyMFdvcmtvdXR8ZW58MHx8MHx8fDA%3D",
         },
       ],
     },
@@ -449,7 +449,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on progressive overload.",
             "Rest 60-90 seconds between sets.",
           ],
-          image: "https://example.com/intermediate-muscle-building.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1726096575252-2cba49d318f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TXVzY2xlJTIwQnVpbGRpbmclMjBQcm9ncmFtfGVufDB8fDB8fHww",
         },
         {
           id: 16,
@@ -478,7 +478,7 @@ const WorkoutRoutinesPage = () => {
             "Rest 30 seconds between exercises.",
             "Use a timer for intervals.",
           ],
-          image: "https://example.com/intermediate-hiit.jpg",
+          image: "https://images.unsplash.com/photo-1625670338244-c2120092ce92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SElJVCUyMFBvd2VyJTIwV29ya291dHxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 17,
@@ -507,7 +507,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on explosive movements.",
             "Rest 45 seconds between sets.",
           ],
-          image: "https://example.com/intermediate-endurance.jpg",
+          image: "https://images.unsplash.com/photo-1560338080-85a0f3f89bf5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RW5kdXJhbmNlJTIwYW5kJTIwUG93ZXJ8ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 18,
@@ -536,7 +536,7 @@ const WorkoutRoutinesPage = () => {
             "Keep your core engaged.",
             "Use a timer for consistency.",
           ],
-          image: "https://example.com/intermediate-circuit.jpg",
+          image: "https://images.unsplash.com/photo-1743993414579-9ad1bb84038b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fENpcmN1aXQlMjBUcmFpbmluZyUyMENoYWxsZW5nZXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 19,
@@ -565,7 +565,7 @@ const WorkoutRoutinesPage = () => {
             "Use a lighter medicine ball if needed.",
             "Rest 60 seconds between sets.",
           ],
-          image: "https://example.com/intermediate-functional.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1726618574723-74839fa5b97f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RnVuY3Rpb25hbCUyMFN0cmVuZ3RoJTIwVHJhaW5pbmd8ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 20,
@@ -594,7 +594,7 @@ const WorkoutRoutinesPage = () => {
             "Engage your core throughout.",
             "Use a wall for support if needed.",
           ],
-          image: "https://example.com/intermediate-core.jpg",
+          image: "https://images.unsplash.com/photo-1517343985841-f8b2d66e010b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q29yZSUyMGFuZCUyMFN0YWJpbGl0eSUyMENoYWxsZW5nZSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 21,
@@ -623,7 +623,7 @@ const WorkoutRoutinesPage = () => {
             "Keep your core engaged.",
             "Rest 60 seconds between sets.",
           ],
-          image: "https://example.com/intermediate-lower-body.jpg",
+          image: "https://images.unsplash.com/photo-1731341400858-402719adc714?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TG93ZXIlMjBCb2R5JTIwUG93ZXJ8ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 22,
@@ -652,7 +652,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on controlled movements.",
             "Rest 60 seconds between sets.",
           ],
-          image: "https://example.com/intermediate-upper-body.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1726328926240-8c9c20c81a46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VXBwZXIlMjBCb2R5JTIwU3RyZW5ndGglMjBneW18ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 23,
@@ -681,7 +681,7 @@ const WorkoutRoutinesPage = () => {
             "Engage your core during planks.",
             "Rest 30 seconds between exercises.",
           ],
-          image: "https://example.com/intermediate-cardio-core.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1726096575271-8d1bd5b64081?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fENhcmRpbyUyMGFuZCUyMENvcmUlMjBDb21ibyUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 24,
@@ -710,7 +710,7 @@ const WorkoutRoutinesPage = () => {
             "Use a block for support in Tree Pose.",
             "Move at a steady pace.",
           ],
-          image: "https://example.com/intermediate-yoga.jpg",
+          image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnR8ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 25,
@@ -739,7 +739,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on proper form.",
             "Increase reps as you progress.",
           ],
-          image: "https://example.com/intermediate-bodyweight.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1663012917724-4ce9630a5de4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keXdlaWdodCUyMFN0cmVuZ3RoJTIwQ2hhbGxlbmdlfGVufDB8fDB8fHww",
         },
         {
           id: 26,
@@ -768,7 +768,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on quick, controlled movements.",
             "Rest 30 seconds between sets.",
           ],
-          image: "https://example.com/intermediate-agility.jpg",
+          image: "https://images.unsplash.com/photo-1609601242635-5c9678e15f20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEFnaWxpdHklMjBhbmQlMjBTcGVlZCUyMFRyYWluaW5nfGVufDB8fDB8fHww",
         },
         {
           id: 27,
@@ -797,7 +797,7 @@ const WorkoutRoutinesPage = () => {
             "Use a spotter for heavy lifts.",
             "Rest 60 seconds between sets.",
           ],
-          image: "https://example.com/intermediate-push-pull.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1664910451815-71900d173da8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHVzaCUyMFB1bGwlMjBTdHJlbmd0aHxlbnwwfHwwfHx8MA%3D%3D",
         },
       ],
     },
@@ -832,7 +832,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on explosive movements.",
             "Rest 90 seconds between sets.",
           ],
-          image: "https://example.com/advanced-strength.jpg",
+          image: "https://images.unsplash.com/photo-1526407153035-415201c1ba3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U3RyZW5ndGglMjAlMjYlMjBQb3dlciUyMFRyYWluaW5nfGVufDB8fDB8fHww",
         },
         {
           id: 29,
@@ -861,7 +861,7 @@ const WorkoutRoutinesPage = () => {
             "Land softly to reduce impact.",
             "Rest 60 seconds between sets.",
           ],
-          image: "https://example.com/advanced-plyometric.jpg",
+          image: "https://images.unsplash.com/photo-1545612036-2872840642dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGx5b21ldHJpYyUyMFBvd2VyJTIwU3VyZ2UlMjBneW18ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 30,
@@ -890,7 +890,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on form over weight.",
             "Rest 2 minutes between sets.",
           ],
-          image: "https://example.com/advanced-olympic.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1719610089343-1fbdcde513e9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8T2x5bXBpYyUyMExpZnRpbmclMjBDb21wbGV4JTIwZml0bmVzfGVufDB8fDB8fHww",
         },
         {
           id: 31,
@@ -919,7 +919,7 @@ const WorkoutRoutinesPage = () => {
             "Stay hydrated throughout.",
             "Rest 45 seconds between sets.",
           ],
-          image: "https://example.com/advanced-conditioning.jpg",
+          image: "https://images.unsplash.com/photo-1610409843310-747410c7d52e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RXh0cmVtZSUyMENvbmRpdGlvbmluZyUyMENoYWxsZW5nZXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 32,
@@ -948,7 +948,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on form during handstand pushups.",
             "Rest 90 seconds between sets.",
           ],
-          image: "https://example.com/advanced-multi-modal.jpg",
+          image: "https://images.unsplash.com/photo-1602827114685-efbb2717da9f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TXVsdGklMjBNb2RhbCUyMFBlcmZvcm1hbmNlJTIwVHJhaW5pbmd8ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 33,
@@ -977,7 +977,7 @@ const WorkoutRoutinesPage = () => {
             "Engage your core throughout.",
             "Rest 45 seconds between sets.",
           ],
-          image: "https://example.com/advanced-core.jpg",
+          image: "https://images.unsplash.com/photo-1734668487893-d686f3c8d0cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QWR2YW5jZWQlMjBDb3JlJTIwQ3J1c2hlciUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 34,
@@ -1006,7 +1006,7 @@ const WorkoutRoutinesPage = () => {
             "Land softly during jumps.",
             "Rest 90 seconds between sets.",
           ],
-          image: "https://example.com/advanced-lower-body.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1719682675509-635d9abd2baa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TG93ZXIlMjBCb2R5JTIwRXhwbG9zaXZlJTIwUG93ZXIlMjBneW18ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 35,
@@ -1035,7 +1035,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on explosive movements for clap pushups.",
             "Rest 90 seconds between sets.",
           ],
-          image: "https://example.com/advanced-upper-body.jpg",
+          image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29ya2luZyUyMG91dHxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 36,
@@ -1064,7 +1064,7 @@ const WorkoutRoutinesPage = () => {
             "Rest 30 seconds between exercises.",
             "Use a timer for intervals.",
           ],
-          image: "https://example.com/advanced-hiit.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1664476913147-71cf56ece24b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QWR2YW5jZWQlMjBISUlUJTIwQmxhc3QlMjBneW18ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 37,
@@ -1093,7 +1093,7 @@ const WorkoutRoutinesPage = () => {
             "Use a lighter sandbag if needed.",
             "Rest 90 seconds between sets.",
           ],
-          image: "https://example.com/advanced-functional.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1664301437780-ee46787734d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnVuY3Rpb25hbCUyMEZpdG5lc3MlMjBFbGl0ZSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           id: 38,
@@ -1122,7 +1122,7 @@ const WorkoutRoutinesPage = () => {
             "Use a wall for support in handstand.",
             "Move at a steady pace.",
           ],
-          image: "https://example.com/advanced-yoga.jpg",
+          image: "https://images.unsplash.com/photo-1687180948630-2780c8b3f7f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QWR2YW5jZWQlMjBZb2dhJTIwZm9yJTIwQXRobGV0ZXN8ZW58MHx8MHx8fDA%3D",
         },
         {
           id: 39,
@@ -1151,7 +1151,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on maximum effort during sprints.",
             "Rest 60 seconds between sets.",
           ],
-          image: "https://example.com/advanced-sprint.jpg",
+          image: "https://plus.unsplash.com/premium_photo-1716811371708-1056ce4869bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fFNwcmludCUyMGFuZCUyMFBvd2VyJTIwSW50ZXJ2YWxzfGVufDB8fDB8fHww",
         },
         {
           id: 40,
@@ -1180,7 +1180,7 @@ const WorkoutRoutinesPage = () => {
             "Focus on form over weight.",
             "Rest 90 seconds between sets.",
           ],
-          image: "https://example.com/advanced-total-body.jpg",
+          image: "https://images.unsplash.com/photo-1546817372-628669db4655?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VG90YWwlMjBCb2R5JTIwU3RyZW5ndGglMjBhbmQlMjBDb25kaXRpb25pbmd8ZW58MHx8MHx8fDA%3D",
         },
       ],
     },

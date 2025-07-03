@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 const BlogPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -11,141 +11,131 @@ const BlogPage = () => {
     {
       id: 1,
       title: "5 Advanced Strength Training Techniques",
-      excerpt:
-        "Discover cutting-edge strength training methods to take your workout to the next level.",
+      excerpt: "Discover cutting-edge strength training methods to take your workout to the next level.",
       content:
         "Strength training is a cornerstone of fitness, but to truly maximize your gains, you need to incorporate advanced techniques. In this article, we explore five methods used by elite athletes, including progressive overload, drop sets, and supersets. Learn how to implement these strategies safely and effectively to build muscle and increase strength.",
       author: "Alex Rodriguez",
       date: "March 15, 2024",
       category: "Strength Training",
       tags: ["strength", "advanced", "workouts"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "8 min read",
     },
     {
       id: 2,
       title: "Nutrition Secrets for Maximum Muscle Growth",
-      excerpt:
-        "Learn the dietary strategies used by professional athletes to build lean muscle.",
+      excerpt: "Learn the dietary strategies used by professional athletes to build lean muscle.",
       content:
         "Nutrition plays a critical role in muscle growth. In this article, we dive into the best foods, supplements, and meal timing strategies to optimize your gains. From protein intake to carb cycling, discover how to fuel your body for maximum muscle growth and recovery.",
       author: "Sarah Johnson",
       date: "February 28, 2024",
       category: "Nutrition",
       tags: ["nutrition", "muscle growth", "diet"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "10 min read",
     },
     {
       id: 3,
       title: "The Ultimate HIIT Workout for Fat Loss",
-      excerpt:
-        "Transform your body with this high-intensity interval training program designed for maximum results.",
+      excerpt: "Transform your body with this high-intensity interval training program designed for maximum results.",
       content:
         "High-Intensity Interval Training (HIIT) is one of the most effective ways to burn fat and improve cardiovascular fitness. This article provides a detailed HIIT workout plan, including exercises, intervals, and recovery periods. Learn how to incorporate HIIT into your routine for maximum fat loss and improved endurance.",
       author: "Mike Thompson",
       date: "January 20, 2024",
       category: "Workouts",
       tags: ["hiit", "fat loss", "cardio"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "7 min read",
     },
     {
       id: 4,
       title: "How to Improve Your Flexibility with Yoga",
-      excerpt:
-        "Unlock your body's potential with these yoga poses designed to enhance flexibility.",
+      excerpt: "Unlock your body's potential with these yoga poses designed to enhance flexibility.",
       content:
         "Flexibility is key to injury prevention and overall fitness. In this article, we explore a series of yoga poses that target major muscle groups to improve your range of motion. From beginner to advanced poses, learn how to incorporate yoga into your routine for better flexibility and recovery.",
       author: "Emily Davis",
       date: "December 10, 2023",
       category: "Yoga",
       tags: ["yoga", "flexibility", "recovery"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "9 min read",
     },
     {
       id: 5,
       title: "The Benefits of Functional Training",
-      excerpt:
-        "Discover how functional training can improve your daily life and athletic performance.",
+      excerpt: "Discover how functional training can improve your daily life and athletic performance.",
       content:
         "Functional training focuses on movements that mimic real-life activities, improving strength, balance, and coordination. This article explores the benefits of functional training, including injury prevention, better mobility, and enhanced athletic performance. We also provide a sample workout to get you started.",
       author: "James Carter",
       date: "November 5, 2023",
       category: "Workouts",
       tags: ["functional training", "strength", "mobility"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V29ya291dHN8ZW58MHx8MHx8fDA%3D",
       readTime: "6 min read",
     },
     {
       id: 6,
       title: "Top 10 Superfoods for Athletes",
-      excerpt:
-        "Fuel your body with these nutrient-dense superfoods to enhance performance and recovery.",
+      excerpt: "Fuel your body with these nutrient-dense superfoods to enhance performance and recovery.",
       content:
         "Superfoods are packed with nutrients that can boost your athletic performance and recovery. In this article, we list the top 10 superfoods for athletes, including quinoa, chia seeds, and salmon. Learn how to incorporate these foods into your diet for optimal health and performance.",
       author: "Sarah Johnson",
       date: "October 20, 2023",
       category: "Nutrition",
       tags: ["superfoods", "nutrition", "athletes"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://plus.unsplash.com/premium_photo-1661753520926-a8fea129c040?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TnV0cml0aW9uJTIwd29tZW58ZW58MHx8MHx8fDA%3D",
       readTime: "8 min read",
     },
     {
       id: 7,
       title: "Mental Health Benefits of Regular Exercise",
-      excerpt:
-        "Learn how regular exercise can improve your mental health and reduce stress.",
+      excerpt: "Learn how regular exercise can improve your mental health and reduce stress.",
       content:
         "Exercise isn't just good for your body—it's also great for your mind. This article explores the mental health benefits of regular exercise, including reduced stress, improved mood, and better sleep. We also provide tips on how to stay motivated and make exercise a part of your daily routine.",
       author: "Dr. Lisa Brown",
       date: "September 15, 2023",
       category: "Mental Health",
       tags: ["mental health", "exercise", "wellness"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "7 min read",
     },
     {
       id: 8,
       title: "How to Create a Balanced Workout Routine",
-      excerpt:
-        "Build a well-rounded fitness plan with this guide to balanced workouts.",
+      excerpt: "Build a well-rounded fitness plan with this guide to balanced workouts.",
       content:
         "A balanced workout routine includes strength, cardio, flexibility, and recovery. In this article, we break down how to create a fitness plan that targets all aspects of fitness. Learn how to schedule your workouts, set goals, and track your progress for long-term success.",
       author: "Mike Thompson",
       date: "August 10, 2023",
       category: "Workouts",
       tags: ["workout routine", "fitness plan", "balance"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "9 min read",
     },
     {
       id: 9,
       title: "The Science of Muscle Recovery",
-      excerpt:
-        "Understand the science behind muscle recovery and how to optimize it.",
+      excerpt: "Understand the science behind muscle recovery and how to optimize it.",
       content:
         "Recovery is a critical part of any fitness program. This article dives into the science of muscle recovery, including the role of sleep, nutrition, and active recovery. Learn how to optimize your recovery to prevent injury and improve performance.",
       author: "Dr. Lisa Brown",
       date: "July 5, 2023",
       category: "Recovery",
       tags: ["recovery", "muscle", "science"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "10 min read",
     },
     {
       id: 10,
       title: "Beginner’s Guide to Weightlifting",
-      excerpt:
-        "Start your weightlifting journey with this comprehensive guide for beginners.",
+      excerpt: "Start your weightlifting journey with this comprehensive guide for beginners.",
       content:
         "Weightlifting can be intimidating for beginners, but it doesn't have to be. This guide covers the basics of weightlifting, including proper form, equipment, and a beginner-friendly workout plan. Start your journey to building strength and confidence today.",
       author: "Alex Rodriguez",
       date: "June 20, 2023",
       category: "Strength Training",
       tags: ["weightlifting", "beginner", "strength"],
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80",
       readTime: "8 min read",
     },
   ];
@@ -413,7 +403,7 @@ const BlogPage = () => {
           <h2 className="text-3xl font-bold text-yellow-400 mb-4">
             Stay Updated
           </h2>
-          <p className="text-gray-300 text-lg mb-6 max-w-xl mx-auto">
+          <p className="text-gray-300 Tolstoy text-lg mb-6 max-w-xl mx-auto">
             Subscribe to our newsletter for weekly fitness tips, workout plans,
             and exclusive content from SKY Fitness.
           </p>

@@ -115,11 +115,11 @@ const MentalHealthPage = () => {
         >
           <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/path-to-mental-health-image.jpg"
+              src="https://images.unsplash.com/photo-1688582384819-23967766a6fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fEZpbmQlMjBZb3VyJTIwSW5uZXIlMjBQZWFjZSUyMGJhbm5lcnxlbnwwfHwwfHx8MA%3D%3D"
               alt="Person meditating in a serene gym environment"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+            <div className="absolute inset-0  bg-opacity-40 flex items-center justify-center">
               <h2 className="text-2xl md:text-4xl font-bold text-white">
                 Find Your Inner Peace
               </h2>

@@ -71,7 +71,7 @@ const ContactUsPage = () => {
     {
       question: "What are your gym hours?",
       answer:
-        "We are open Monday to Friday from 6 AM to 10 PM, and Saturday to Sunday from 8 AM to 8 PM.",
+        "We are open Monday to Friday from 5 AM to 11 PM, and Saturday to Sunday from 7 AM to 9 PM.",
     },
     {
       question: "Do you offer a free trial?",
@@ -190,7 +190,7 @@ const ContactUsPage = () => {
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full p-4 rounded-lg bg-gray-800 text-white border border-gray-600 focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition-all duration-300"
-                    placeholder="+91 123 456 7890"
+                    placeholder="+91 98765 43210"
                   />
                 </div>
                 <div>
@@ -262,7 +262,7 @@ const ContactUsPage = () => {
                   <div>
                     <p className="font-medium text-gray-400">Address</p>
                     <p className="text-white">
-                      123 Fitness Way, Gym City, IN 12345
+                      501, 5th Floor, Sky Towers, MG Road, Bengaluru, Karnataka 560001, India
                     </p>
                   </div>
                 </div>
@@ -283,7 +283,7 @@ const ContactUsPage = () => {
                   </svg>
                   <div>
                     <p className="font-medium text-gray-400">Phone</p>
-                    <p className="text-white">+91-123-456-7890</p>
+                    <p className="text-white">+91-98765-43210</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -303,7 +303,7 @@ const ContactUsPage = () => {
                   </svg>
                   <div>
                     <p className="font-medium text-gray-400">Email</p>
-                    <p className="text-white">info@skyfitness.com</p>
+                    <p className="text-white">info@skyfitness.in</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -323,8 +323,8 @@ const ContactUsPage = () => {
                   </svg>
                   <div>
                     <p className="font-medium text-gray-400">Hours</p>
-                    <p className="text-white">Mon-Fri: 6 AM - 10 PM</p>
-                    <p className="text-white">Sat-Sun: 8 AM - 8 PM</p>
+                    <p className="text-white">Mon-Fri: 5 AM - 11 PM</p>
+                    <p className="text-white">Sat-Sun: 7 AM - 9 PM</p>
                   </div>
                 </div>
               </div>
@@ -390,11 +390,11 @@ const ContactUsPage = () => {
           <div className="bg-gray-900 p-6 border-b border-gray-700">
             <h3 className="text-3xl font-bold text-yellow-400">Find Us</h3>
             <p className="text-gray-400 mt-2">
-              Visit our state-of-the-art facility in Gym City
+              Visit our state-of-the-art facility in Bengaluru
             </p>
           </div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509316!2d144.96305731531984!3d-37.81627947975679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x504f0b53f36be50!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1630171856783!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.8721123243807!2d77.5945623148215!3d12.97159869085659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c3b2b2b1%3A0x7d0b0c0b0b0b0b0b!2sMG%20Road%2C%20Bengaluru%2C%20Karnataka%20560001%2C%20India!5e0!3m2!1sen!2sin!4v1718000000000!5m2!1sen!2sin"
             width="100%"
             height="450"
             style={{ border: 0 }}
